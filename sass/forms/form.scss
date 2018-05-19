@@ -1,0 +1,12 @@
+$gera: true;
+@mixin formulario($pad:10px){
+	padding: $pad;
+	display: block;
+	text_align: center;
+}
+
+@if $gera == true {
+	@import 'contato';
+	@import 'ouvidoria';
+	@import 'faq';
+}
